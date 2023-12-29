@@ -1,6 +1,6 @@
 namespace DependabotCPMTestClassLib.Tests;
 
-public class Tests
+public class SmokeTest
 {
     [SetUp]
     public void Setup()
@@ -8,7 +8,7 @@ public class Tests
     }
 
     [Test]
-    public void Test1()
+    public void Pass()
     {
         Assert.Pass();
     }
